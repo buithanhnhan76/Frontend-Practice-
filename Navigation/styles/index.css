@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  padding: 0 115px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 243px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.button-secondary {
+  border-radius: 100px;
+  padding: 10px 20px;
+  background: #482be7;
+  font-style: normal;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 22px;
+  color: white;
+}
