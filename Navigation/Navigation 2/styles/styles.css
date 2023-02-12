@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 115px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 346px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.button-darkoutline {
+  border: 1px solid gray;
+  border-radius: 100px;
+  padding: 9px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1e0e62;
+}
