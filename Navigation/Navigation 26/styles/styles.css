@@ -1,0 +1,210 @@
+html,
+body,p {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: #2f1893;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 115px;
+  color: white;
+}
+.company-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.292683px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.button-border {
+  border: 1px solid gray;
+  border-radius: 100px;
+  padding: 9px 22px;
+}
+
+.text-secondary {
+  opacity: 0.6;
+}
+
+hr {
+  margin: 0;
+  opacity: 0.3;
+  border: 2px solid #ebeaed;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 569px;
+  padding: 50px 115px;
+}
+
+.footer-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  max-height: 300px;
+}
+
+.footer-categories-lable {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-categories-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.register-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../images/head-phone.png");
+  background-position: inherit;
+  background-size: cover;
+  border-radius: 10px;
+  max-width: 345px;
+  padding: 53px;
+  box-sizing: border-box;
+}
+
+.register-banner-content {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e0e62;
+}
+
+.button {
+  border: none;
+  padding: 12px 25px;
+  width: 200px;
+  height: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-secondary {
+  background-color: #2f1893;
+  border-radius: 100px;
+}
+
+.product-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 25px;
+  width: 570px;
+  min-height: 262px;
+  background: url("../images/mouse.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-banner-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  max-width: 265px;
+  color: #1e0e62;
+  margin-bottom: 7px;
+}
+
+.product-banner-paragraph {
+  margin-left: 15px;
+  max-width: 145px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1e0e62;
+  opacity: 0.6;
+}
+
+.products-demo {
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.product-name {
+  margin: 30px 0 8px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
